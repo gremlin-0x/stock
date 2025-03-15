@@ -4,10 +4,22 @@ This script calcualtes a given stock's average yearly performance throughout its
 
 ## Usage:
 
+Create the virtual environment:
+
+```shell
+python3 -m virtualenv venv
+```
+
 Activate the virtual environment:
 
 ```shell
 source venv/bin/activate
+```
+
+Install `yfinance`:
+
+```
+pip3 install yfinance
 ```
 
 Try a ticker:
